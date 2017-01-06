@@ -15,8 +15,8 @@ library(tidyr)
 library(ggplot2)
 
 # data loading
-frog_data <- fread('D:/凱/LAB黑眶/黑眶整理表.csv', header = T)
-vectors <- fread('D:/凱/LAB黑眶/sex&loc.csv', header = T)
+frog_data <- fread('BRDRainbowLiao.io/黑眶整理表.csv', header = T)
+vectors <- fread('BRDRainbowLiao.io/sex&loc.csv', header = T)
 frog_data_no0 <- filter(frog_data, infection == 'yes')
 tbl_frog0 <- tbl_df(frog_data_no0)
 head(tbl_frog0)
