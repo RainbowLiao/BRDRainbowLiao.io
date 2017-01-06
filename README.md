@@ -47,7 +47,7 @@ frog_sq_dist <- dist(frog_sq)
 
 ## Plots
 
-```{r pressure, echo=FALSE, warning=FALSE, error=FALSE}
+```{r}
 res <- cmdscale(frog_sq_dist, 4, eig= T)
 (en2 <- envfit(res, frog_sq, perm = 999))
 limits = apply(res$points, 2, range)
@@ -66,6 +66,7 @@ plot(en2, p.max = 0.05, col = "red", lwd = 30)
 names = as.character(tbl_frog0$Sex)
 text(x, y, labels= names, pos=2, cex=1, offset=1)
 ```
+
 ![description](https://github.com/RainbowLiao/BRDRainbowLiao.io/raw/master/PCoA.PNG)
 
 ## 以permanova檢測差異
