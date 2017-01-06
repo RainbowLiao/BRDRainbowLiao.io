@@ -28,10 +28,12 @@ head(parasite)
 # sqrt轉換 trans <- sqrt
 sqare_root_para <- sqrt(parasite[3:7])
 ```
-https://github.com/RainbowLiao/BRDRainbowLiao.io/raw/master/table.PNG
+![table](https://github.com/RainbowLiao/BRDRainbowLiao.io/raw/master/table.PNG)
 
 ## PCoA 
+
 ###(主座標分析，分析寄生蟲組成在不同地點或性別間的距離或差異)
+
 ```{r, echo=FALSE, warning=FALSE, error=FALSE}
 
 # distance 以 hellinger 轉換
@@ -64,7 +66,7 @@ plot(en2, p.max = 0.05, col = "red", lwd = 30)
 names = as.character(tbl_frog0$Sex)
 text(x, y, labels= names, pos=2, cex=1, offset=1)
 ```
-https://github.com/RainbowLiao/BRDRainbowLiao.io/raw/master/PCoA.PNG
+![description](https://github.com/RainbowLiao/BRDRainbowLiao.io/raw/master/PCoA.PNG)
 
 ## 以permanova檢測差異
 ```{r, echo=FALSE, warning=FALSE, error=FALSE}
