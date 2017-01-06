@@ -76,7 +76,7 @@ text(x, y, labels= names, pos=2, cex=1, offset=1)
 adonis(frog_data_no0[, 10:14]~frog_data_no0$`Capture loc.`*frog_data_no0$Sex)
 
 ```
-https://github.com/RainbowLiao/BRDRainbowLiao.io/raw/master/permanova.PNG
+![](https://github.com/RainbowLiao/BRDRainbowLiao.io/raw/master/permanova.PNG)
 
 #### 結果顯示在不同地點間有差異而性別無
 
@@ -90,6 +90,6 @@ coocur_1 <- cooccur(mat = frog_co, type = "spp_site",
 summary(coocur_1)
 
 ```
-https://github.com/RainbowLiao/BRDRainbowLiao.io/raw/master/cooccur.PNG
+![](https://github.com/RainbowLiao/BRDRainbowLiao.io/raw/master/cooccur.PNG)
 
 #### 結果顯示並無任何共同出現關係
