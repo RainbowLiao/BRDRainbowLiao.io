@@ -1,4 +1,10 @@
-# This is RainbowLiao's data world
+# This is RainbowLiao's data world.
+
+## I'm a college student of department of Biologicl Resoure in NCYU. 
+
+## My research is about the community of frog's parasites, so here is a piece of my result....
+
+
 ---
 title: "Asian toad's parasites community analysis"
 author: "廖凱鋐"
