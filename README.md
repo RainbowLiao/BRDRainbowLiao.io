@@ -7,7 +7,7 @@
 
 ## 黑眶蟾蜍體內寄生蟲資料
 
-```{r, echo=FALSE, warning=FALSE, error=FALSE}
+```r
 library(data.table)
 library(ape)
 library(vegan)
@@ -34,7 +34,7 @@ sqare_root_para <- sqrt(parasite[3:7])
 
 ###(主座標分析，分析寄生蟲組成在不同地點或性別間的距離或差異)
 
-```{r, echo=FALSE, warning=FALSE, error=FALSE}
+```r
 
 # distance 以 hellinger 轉換
 frog_sq <- decostand(sqare_root_para, "hellinger")
@@ -69,7 +69,8 @@ text(x, y, labels= names, pos=2, cex=1, offset=1)
 ![description](https://github.com/RainbowLiao/BRDRainbowLiao.io/raw/master/PCoA.PNG)
 
 ## 以permanova檢測差異
-```{r, echo=FALSE, warning=FALSE, error=FALSE}
+
+```r
 # permanova
 adonis(frog_data_no0[, 10:14]~frog_data_no0$`Capture loc.`*frog_data_no0$Sex)
 
