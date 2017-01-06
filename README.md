@@ -1,8 +1,8 @@
 # This is RainbowLiao's data world.
 
-## I'm a college student of department of Biologicl Resoure in NCYU. 
+## I'm a college student of department of Biological Resoure in NCYU. 
 
-## My research is about the community of frog's parasites, so here is a piece of my result....
+## My research is about the community of frog's parasites, so here shows a piece of my result....
 
 
 ---
